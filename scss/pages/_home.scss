@@ -8,6 +8,7 @@ body {
   font-family: "Raleway", sans-serif;
   padding:2rem;
 }
+
 h1 {
   text-transform: uppercase;
   text-align: center;
@@ -78,7 +79,7 @@ button {
 }
 .lets-go {
   background:rebeccapurple;
-  display: none;
+  display: block;
   &:hover {
     background:rgb(66, 33, 99);
   }
@@ -133,4 +134,8 @@ button {
 .count {
   text-align: center;
   margin-bottom: 10px;
+}
+
+.remove{
+  display: none;
 }
